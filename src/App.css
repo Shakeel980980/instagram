@@ -1,0 +1,78 @@
+.instagramClone {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  overflow: hidden;
+  gap: 10px;
+  font-family: sans-serif;
+  position: relative;
+}
+.leftSidemain {
+  width: 20%;
+  padding: 10px;
+  position: fixed;
+  box-sizing: border-box;
+}
+.middleSidemain {
+  width: 55%;
+  padding: 10px;
+  margin-left: 17.5%;
+  box-sizing: border-box;
+  border-left: 1px solid gray;
+}
+.rightSidemain {
+  width: 25%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1140px) {
+  .instagramClone {
+    width: 100%;
+  }
+  .rightSidemain {
+    display: none;
+  }
+  .leftSidemain {
+    width: 20%;
+  }
+  .middleSidemain {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .instagramClone {
+    width: 100%;
+  }
+  .rightSidemain {
+    display: none;
+  }
+  .leftSidemain {
+    width: 10%;
+    border-right: 1px solid gray;
+  }
+  .middleSidemain {
+    width: 90%;
+    border-left: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .instagramClone {
+    width: 100%;
+  }
+  .rightSidemain {
+    display: none;
+  }
+  .leftSidemain {
+    position: absolute;
+    top: 95%;
+    position: fixed;
+    background-color: black;
+    border-right: none;
+  }
+  .middleSidemain {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

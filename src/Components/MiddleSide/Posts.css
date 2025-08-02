@@ -1,0 +1,96 @@
+/* .main-container-content {
+} */
+.posts {
+  width: 100%;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(59, 59, 59);
+  padding-bottom: 15px;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+}
+.post-header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-name-and-logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: fill;
+  border-radius: 50%;
+  margin-right: 0px;
+}
+.name {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.postedDay {
+  color: rgb(123, 124, 126);
+  font-size: 14px;
+  align-items: center;
+}
+.subheading {
+  font-size: 13px;
+}
+/* header done */
+/* main video or pic */
+.main-content {
+  margin: 10px 0px;
+  width: 100%;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.main-content img {
+  width: 95%;
+}
+
+.post-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttom-icons {
+  padding-right: 10px;
+}
+.buttom-icons:hover {
+  color: gray;
+}
+.right-buttons:hover {
+  color: gray;
+}
+.likes {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+.add-comment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.comment-input form input {
+  line-height: 25px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+.comments-views {
+  color: gray;
+}
+.comment-impression {
+  color: gray;
+}

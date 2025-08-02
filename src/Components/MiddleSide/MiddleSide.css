@@ -1,0 +1,46 @@
+.middleSide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.particular-Container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  line-height: 2rem;
+  overflow: auto;
+  gap: 15px;
+}
+.particular-Container::-webkit-scrollbar {
+  overflow: hidden;
+}
+.particular {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+}
+.particular-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.particular-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rebeccapurple;
+  padding: 2px;
+}
+.particular-name {
+  font-size: 12px;
+}
+/* main page */
+.mainContent {
+  width: 70%;
+  margin: auto;
+}

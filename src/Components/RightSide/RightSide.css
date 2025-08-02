@@ -1,0 +1,49 @@
+.rightside-main {
+  padding: 20px 20px;
+}
+.account {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account-img {
+  width: 45px;
+  height: 45px;
+}
+.account-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.account-detail {
+  padding-left: 10px;
+  flex: 1;
+  flex-direction: column;
+}
+.account-sub-name {
+  color: gray;
+  font-size: 12px;
+}
+.switch {
+  color: #a3bcff;
+  font-size: 13px;
+}
+.suggestion-headings {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 13px;
+}
+.right-footer {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 13px;
+  color: gray;
+}
+.copyright {
+  text-transform: uppercase;
+}
