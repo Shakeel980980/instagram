@@ -66,11 +66,10 @@
   }
   .leftSidemain {
     position: absolute;
-    top: 95%;
+    bottom: -10px;
     position: fixed;
     background-color: black;
     border-right: none;
-    position: fixed;
   }
   .middleSidemain {
     width: 100%;
